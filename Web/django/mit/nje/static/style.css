@@ -1,0 +1,15 @@
+.rr{
+    color: lawngreen;
+}
+.ss{
+    color: darksalmon;
+}
+.dd{
+    color: grey;
+}
+body{
+    margin: 20px;
+    background-color: darkgrey;
+    text-align: center;
+
+}

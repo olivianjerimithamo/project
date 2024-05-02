@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<table>
+
+ <tr>
+     <td>ID</td>
+     <td>name</td>
+     <td>phone</td>
+     <td>email</td>
+
+
+ </tr>
+ {% for x in student %}
+     <tr>
+         <td>{{  x.id }}</td>
+         <td>{{ x.name }}</td>
+         <td>{{ x.phone }}</td>
+         <td>{{ x.email }}</td>
+     </tr>
+ {% endfor %}
+
+
+
+
+
+</table>
+
+
+
+
+
+</body>
+</html>
